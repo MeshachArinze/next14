@@ -1,6 +1,4 @@
-
-
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import notes from "../data/notes.json";
 import { v4 as uuidv4 } from "uuid";
 
