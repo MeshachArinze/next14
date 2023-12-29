@@ -1,0 +1,38 @@
+{
+  "name": "event-ally",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@appwrite.io/pink": "^0.2.0",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.1.1",
+    "appwrite": "^13.0.1",
+    "lottie-react": "^2.4.0",
+    "next": "14.0.4",
+    "node-appwrite": "^11.1.0",
+    "react": "^18",
+    "react-csv-downloader": "^3.0.0",
+    "react-dom": "^18",
+    "react-icons": "^4.12.0",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5"
+  }
+}

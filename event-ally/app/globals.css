@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fallback font */
+body {
+  font-family: 'FallbackFont', sans-serif;
+}
+/* Local font */
+@font-face {
+  font-family: 'Inter';
+  src: url('/path/to/inter.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
