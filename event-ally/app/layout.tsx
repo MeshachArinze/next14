@@ -1,9 +1,10 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+
 import './globals.css'
 
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "EventAlly - Create Events",
@@ -18,8 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-    
-      <body className={inter.className}>{children}</body>
+    <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"></link>
+
+    </head>
+      <body>{children}</body>
     </html>
   )
 }
