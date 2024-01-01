@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const Portfolio = () => {
   return (
-    <div  className="w-full md:h-screen my-20 py-2 text-white">
+    <div  className="w-full py-2 text-white">
       <div className="max-w-screen-lg pb-60 mt-70 flex flex-col mx-auto justify-center w-full ">
         <div className="pb-8">
           <p className="text-5xl text-center text-[#4ADE80] font-bold border-b-4 border-[#1E293B]">
@@ -31,11 +31,11 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-xl duration-200 hover:scale-105"
               />
-              <div className="flex justify-center items-center">
                 <button className="px-6 py-3 m-4 duration-200 hover:scale-105 font-bold text">
                   Worldleclone
                 </button>
-              </div>
+              {/* <div className="flex justify-center items-center">
+              </div> */}
             </a>
           </div>
 
@@ -50,11 +50,11 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-xl duration-200 hover:scale-105"
               />
-              <div className="flex justify-center items-center">
                 <button className="px-6 py-3 m-4 duration-200 hover:scale-105 font-bold text">
                   Agency Landing Page
                 </button>
-              </div>
+              {/* <div className="flex justify-center items-center">
+              </div> */}
             </a>
           </div>
 
@@ -69,11 +69,11 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-xl duration-200 hover:scale-105"
               />
-              <div className="flex justify-center items-center">
                 <button className="px-6 py-3 m-4 duration-200 hover:scale-105 font-bold text">
                   Airbnb Clone
                 </button>
-              </div>
+              {/* <div className="flex justify-center items-center">
+              </div> */}
             </a>
           </div>
 
@@ -88,11 +88,11 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-xl duration-200 hover:scale-105"
               />
-              <div className="flex justify-center items-center">
                 <button className="px-6 py-3 m-4 duration-200 hover:scale-105 font-bold text">
                   Sportify Clone
                 </button>
-              </div>
+              {/* <div className="flex justify-center items-center">
+              </div> */}
             </a>
           </div>
 
@@ -108,11 +108,11 @@ const Portfolio = () => {
                 className="rounded-xl duration-200 hover:scale-105"
               />
 
-              <div className="flex justify-center items-center">
                 <button className="px-6 py-3 m-4 duration-200 hover:scale-105 font-bold text">
                   Feedback App
                 </button>
-              </div>
+              {/* <div className="flex justify-center items-center">
+              </div> */}
             </a>
           </div>
 
@@ -128,11 +128,11 @@ const Portfolio = () => {
                 className="rounded-xl duration-200 hover:scale-105"
               />
 
-              <div className="flex justify-center items-center">
                 <button className="px-6 py-3 m-4 duration-200 hover:scale-105 font-bold text">
                   payment app
                 </button>
-              </div>
+              {/* <div className="flex justify-center items-center">
+              </div> */}
             </a>
           </div>
         </div>

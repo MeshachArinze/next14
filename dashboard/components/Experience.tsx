@@ -40,8 +40,8 @@ const Experience = () => {
     
       className="w-full h-screen pt-2 py-10 mt-40 text-white"
     >
-      <div className="max-w-screen-lg py-10 flex mb-40 flex-col mx-auto justify-center w-full h-full ">
-        <div className="pb-5 mt-60">
+      <div className="flex  flex-col mx-auto justify-center w-full h-full ">
+        <div className="pb-5 ">
           <p className="text-5xl text-center text-[#4ADE80] font-bold border-b-4 border-[#1E293B]">
             Experiences
           </p>
