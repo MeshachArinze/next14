@@ -7,7 +7,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="py-6 text-xl text-center">
-            Submit the form to contact me
+            Submit the form 
           </p>
         </div>
         <div>
