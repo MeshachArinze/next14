@@ -14,7 +14,7 @@ export default function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auhref p-4">
+    <div className="text-white flex justify-between items-center h-24 max-w-[1240px]  p-4">
       <h1 className="w-full text-4xl font-bold text-[#4ADE80]">MESHACH.</h1>
       <ul className="hidden md:flex">
         <li className="p-4 cursor-pointer hover:scale-105 duration-200 capitalize font-medium">
@@ -40,8 +40,8 @@ export default function Navbar() {
       <div
         className={
           !nav
-            ? "fixed left-0 hrefp-0 w-[60%] h-full border-r border-r-gray-900 bg-[#0f172a] ease-in-out duration-500"
-            : "fixed left-[-100%]"
+            ? " left-0 href p-0 w-[100%] h-full border-r border-r-gray-900 bg-[#0f172a] ease-in-out duration-500"
+            : " left-[-100%]"
         }
       >
         <h1 className="w-full text-3xl font-bold text-[#4ADE80] m-8">
