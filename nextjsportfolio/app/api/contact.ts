@@ -7,10 +7,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   
   // https://nodemailer.com/smtp/
   const transporter = nodemailer.createTransport({
-    service: 'SendinBlue',
+    service: "brevo",
     auth: {
-      user: process.env.email,
-      pass: process.env.SMTP_PASS,
+      user: process.env.NEXT_PUBLIC_EMAIL,
+      pass: process.env.NEXT_PUBLIC_SMTP_PASS,
     },
     secure: false, // Default value but showing for explicitness
   });
