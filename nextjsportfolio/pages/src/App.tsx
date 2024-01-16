@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Menu from './Menu';
 import Categories from './Categories';
-import  {items} from './data';
+import  {items} from '../../lib/data';
 
 export interface Prop {
   id: number;
