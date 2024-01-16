@@ -1,6 +1,6 @@
 "use client";
 import React, { Suspense, lazy } from "react";
-const App = lazy(() => import("@/pages/src/App"));
+const App = lazy(() => import("@/components/App"));
 const Loading = lazy(() => import("@/components/Loading"));
 const Navbar = lazy(() => import("@/components/Navbar"));
 const Footer = lazy(() => import("@/components/Footer"));
