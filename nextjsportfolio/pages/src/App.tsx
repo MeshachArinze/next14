@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import Menu from './Menu';
 import Categories from './Categories';
-import items from './data';
+import  {items} from './data';
 
 export interface Prop {
   id: number;
   title: string;
   category: string;
-  price: number;
   img: string;
   desc: string;
 }
