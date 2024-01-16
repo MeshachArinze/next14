@@ -8,7 +8,7 @@ type Props = {
   title: string;
   category: string;
   img: string;
-  desc: string;
+
   href: string;
   link: string;
 };

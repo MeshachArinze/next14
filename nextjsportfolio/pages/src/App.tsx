@@ -8,7 +8,8 @@ export interface Prop {
   title: string;
   category: string;
   img: string;
-  desc: string;
+  link: string;
+  href: string;
 }
 [];
 
